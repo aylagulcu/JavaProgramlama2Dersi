@@ -12,13 +12,13 @@ public class Employee extends Person{
     }
     
     public Employee(String s) {
-        super(s);
         write();
         
         System.out.println("Employee' nin (String) alan constructor!ı çalıştı");
         System.out.println(s);
     }
     
+    // method overriding:
     public void write(){
         System.out.println("Bu Employee nesnesinin adı: "+ this.getName());
     }
